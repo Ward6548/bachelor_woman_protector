@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  bachelor_womon_protector:
+    image: bachelor_womon_protector:latest
+    ports:
+    - 8080:8080
+  redis:
+    image: redis:latest
